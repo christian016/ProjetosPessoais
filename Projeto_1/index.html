@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TP05_Projeto_De_Bloco</title>
+  <link rel="stylesheet" href="./CSS/reset.css" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <link rel="stylesheet" href="./CSS/itenscarousel.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navContainer">    
+      <div class="mobile-menu">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <a class="mobileLogoImg" href="#"><strong>---> CHRA <---</strong></a>
+    <div class="mobileAjust"></div>
+      <div class="divMenusEsquerda">
+        <a class="logoImg" href="#"><strong>CHRA</strong></a>
+        <ul>
+          <li class="hover-underline-animation"><a href="#">SHOWS</a></li>
+          <li class="hover-underline-animation"><a href="#">FILMES</a></li>
+          <li class="hover-underline-animation"><a href="#">PEÇAS</a></li>
+        </ul>
+      </div>
+      <div class="divMenusDireita">
+        <a href="#"><img id="carrinho" src="imagens/NoPath - Copia.png" alt="Carrinho"><p class="carrinhoText">COMPRAS</p></a>
+        <button title="a" id="btnPesquisa"><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>
+        <input type="text" name="nBarraPesquisa" id="idBarraPesquisa" placeholder="Pesquisa">
+        <button id="btnLogin" class="btn btn-blue">Entrar</button>
+        <a id="cadastrar" ref="#">Cadastrar-se</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="gallery">
+      <div id="destaque1" class="gallery-cell"><img src="./imagens/Destaques/9ff73ff1b79d9493c5bae3f80a0cf10c.jpg"
+          alt=""></div>
+      <div id="destaque2" class="gallery-cell"><img src="./imagens/Destaques/10021761.jpg" alt=""></div>
+      <div id="destaque3" class="gallery-cell"><img src="./imagens/Destaques/628d18d8f62f169b8a329871c2a533ac.jpg"
+          alt=""></div>
+      <div id="destaque4" class="gallery-cell"><img src="./imagens/Destaques/space.jpg" alt=""></div>
+      <div id="destaque5" class="gallery-cell"><img src="./imagens/Destaques/0412196022e9edaedf10ed6e114ca021.jpg"
+          alt=""></div>
+    </div>
+    <section class="sectionHomeGaleria">
+
+      <!-- ARTIGOS DE SHOWS -->
+      <article class="articleGaleria">
+        <div class="articleTitle">
+          <h1>Shows</h1> <a class="hover-underline-animation" href="#">Ver mais escolhas</a>
+        </div>
+        <div class="container">
+          <button class="handle left-handle btnShows">
+            <div class="text">&#8249;</div>
+          </button>
+          <div id="shows" class="divRowGaleria slider">
+            <div class="divShow">
+              <div class="divImgShow">
+                <img src="./imagens/Shows/Thisguinho.png" alt="">
+              </div>
+              <div class="divLeituraShow">
+                <h2>Turnê Infinito</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+
+            </div>
+            <div class="divShow">
+              <div class="divImgShow">
+                <img src="./imagens/Shows/AmadoBatista.png" alt="">
+              </div>
+              <div class="divLeituraShow">
+                <h2>Amado Batista</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divShow">
+              <div class="divImgShow">
+                <img src="./imagens/Shows/Capital.jpg" alt="">
+              </div>
+              <div class="divLeituraShow">
+                <h2>Capital Inicial</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divShow">
+              <div class="divImgShow">
+                <img src="./imagens/Shows/CesarMenotti.jpg" alt="">
+              </div>
+              <div class="divLeituraShow">
+                <h2>Cesar Menotti & Fabiano</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divShow">
+              <div class="divImgShow">
+                <img src="./imagens/Shows/ClaudioDuarte.png" alt="">
+              </div>
+              <div class="divLeituraShow">
+                <h2>Pr. Claudio Duarte</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divShow">
+              <div class="divImgShow">
+                <img src="./imagens/Shows/HugoGuilherme.jpg" alt="">
+              </div>
+              <div class="divLeituraShow">
+                <h2>Hugo & Guilherme</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divShow">
+              <div class="divImgShow">
+                <img src="./imagens/Shows/SorrisoMaroto.png" alt="">
+              </div>
+              <div class="divLeituraShow">
+                <h2>Sorriso Maroto</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divShow">
+              <div class="divImgShow">
+                <img src="./imagens/Shows/TributoLegiãoUrbana.jpg" alt="">
+              </div>
+              <div class="divLeituraShow">
+                <h2>Legião Urbana</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+          </div>
+          <button class="handle right-handle btnShows">
+            <div class="text">&#8250;</div>
+          </button>
+        </div>
+      </article>
+      <!-- ARTIGOS DE FILMES -->
+      <article class="articleGaleria">
+        <div class="articleTitle">
+          <h1>Filmes</h1><a class="hover-underline-animation" href="#">Ver mais escolhas</a>
+        </div>
+        <div class="container">
+          <button class="handle left-handle btnFilmes">
+            <div class="text">&#8249;</div>
+          </button>
+          <div id="filmes" class="divRowGaleria slider">
+            <div class="divFilme">
+              <div class="divCapaFilme">
+                <img src="imagens/Filmes/FilmeO_hobbit.jpg" alt="">
+              </div>
+              <div class="divLeituraFilme">
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et. Donec id nunc et nulla dapibus venenatis vel vel magna. Ut ut
+                  ullamcorper
+                  quam. In in felis vel tellus consequat faucibus nec vitae erat. lo</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divFilme">
+              <div class="divCapaFilme">
+                <img src="imagens/Filmes/FilmeAMeninaQueRoubavaLivros.jpg" alt="">
+              </div>
+              <div class="divLeituraFilme">
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et. Donec id nunc et nulla dapibus venenatis vel vel magna. Ut ut
+                  ullamcorper
+                  quam. In in felis vel tellus consequat faucibus nec vitae erat. lo</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divFilme">
+              <div class="divCapaFilme">
+                <img src="imagens/Filmes/FilmeCapitãNOVA.jpg" alt="">
+              </div>
+              <div class="divLeituraFilme">
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et. Donec id nunc et nulla dapibus venenatis vel vel magna. Ut ut
+                  ullamcorper
+                  quam. In in felis vel tellus consequat faucibus nec vitae erat. lo</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divFilme">
+              <div class="divCapaFilme">
+                <img src="imagens/Filmes/FilmeMulan.jpg" alt="">
+              </div>
+              <div class="divLeituraFilme">
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et. Donec id nunc et nulla dapibus venenatis vel vel magna. Ut ut
+                  ullamcorper
+                  quam. In in felis vel tellus consequat faucibus nec vitae erat. lo</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divFilme">
+              <div class="divCapaFilme">
+                <img src="imagens/Filmes/FilmeScream.png" alt="">
+              </div>
+              <div class="divLeituraFilme">
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et. Donec id nunc et nulla dapibus venenatis vel vel magna. Ut ut
+                  ullamcorper
+                  quam. In in felis vel tellus consequat faucibus nec vitae erat. lo</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divFilme">
+              <div class="divCapaFilme">
+                <img src="imagens/Filmes/FilmeScream.png" alt="">
+              </div>
+              <div class="divLeituraFilme">
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et. Donec id nunc et nulla dapibus venenatis vel vel magna. Ut ut
+                  ullamcorper
+                  quam. In in felis vel tellus consequat faucibus nec vitae erat. lo</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+          </div>
+          <button class="handle right-handle btnFilmes">
+            <div class="text">&#8250;</div>
+          </button>
+        </div>
+      </article>
+      <!-- ARTIGOS DE PEÇAS -->
+      <article class="articleGaleria">
+        <div class="articleTitle">
+          <h1>Peças</h1><a class="hover-underline-animation" href="#">Ver mais escolhas</a>
+        </div>
+        <div class="container">
+          <button class="handle left-handle bntPecas">
+            <div class="text">&#8249;</div>
+          </button>
+          <div id="pecas" class="divRowGaleria slider">
+            <div class="divPeca">
+              <div class="divImgPeca">
+                <img src="imagens/Peças/Peça-Amazing-Tenors_deboa-Brasilia-300x300.jpg" alt="">
+              </div>
+              <div class="divLeituraPeca">
+                <h2>Amazing Tenors</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et. Donec id nunc et nulla dapibus venenatis vel vel magna. Ut ut
+                  ullamcorper
+                  quam. In in felis vel tellus consequat faucibus nec vitae erat.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divPeca">
+              <div class="divImgPeca">
+                <img src="imagens/Peças/Peça-Espetáculo-A-Caravana-de-Delirantes_-deboa-Brasilia-300x300.jpg" alt="">
+              </div>
+              <div class="divLeituraPeca">
+                <h2>A Caverna de Delirantes</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et. Donec id nunc et nulla dapibus venenatis vel vel magna. Ut ut
+                  ullamcorper
+                  quam. In in felis vel tellus consequat faucibus nec vitae erat.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divPeca">
+              <div class="divImgPeca">
+                <img src="imagens/Peças/Peça-Liberty-mall_deboa-Brasilia-300x300.jpg" alt="">
+              </div>
+              <div class="divLeituraPeca">
+                <h2>Liberty Mall</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et. Donec id nunc et nulla dapibus venenatis vel vel magna. Ut ut
+                  ullamcorper
+                  quam. In in felis vel tellus consequat faucibus nec vitae erat.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divPeca">
+              <div class="divImgPeca">
+                <img src="imagens/Peças/Peça-O-misterio-de-irma-vap_deboa-Brasilia-300x300.jpg" alt="">
+              </div>
+              <div class="divLeituraPeca">
+                <h2>O Mistério de Irma</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et. Donec id nunc et nulla dapibus venenatis vel vel magna. Ut ut
+                  ullamcorper
+                  quam. In in felis vel tellus consequat faucibus nec vitae erat.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divPeca">
+              <div class="divImgPeca">
+                <img src="imagens/Peças/Peça-O-SHOW-DAS-PRINCESAS_deboa-Brasilia-300x300.jpg" alt="">
+              </div>
+              <div class="divLeituraPeca">
+                <h2>O Show Das Princesas</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et. Donec id nunc et nulla dapibus venenatis vel vel magna. Ut ut
+                  ullamcorper
+                  quam. In in felis vel tellus consequat faucibus nec vitae erat.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+            <div class="divPeca">
+              <div class="divImgPeca">
+                <img src="imagens/Peças/Peça-Reio-Leão-In-Concert_deboa-Brasilia-300x300.jpg" alt="">
+              </div>
+              <div class="divLeituraPeca">
+                <h2>Rei Leão In Concert</h2>
+                <p>Phasellus sit amet mi at leo scelerisque imperdiet sit amet sed enim. Sed auctor porta nisl, id
+                  sollicitudin velit euismod et. Donec id nunc et nulla dapibus venenatis vel vel magna. Ut ut
+                  ullamcorper
+                  quam. In in felis vel tellus consequat faucibus nec vitae erat.</p>
+                <button class="btn btn-blue">Comprar</button>
+              </div>
+            </div>
+          </div>
+          <button class="handle right-handle btnPecas">
+            <div class="text">&#8250;</div>
+          </button>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <section>
+      <article>
+        <div class="divFooterLogo">
+          <a href="#"><strong>CHRA</strong></a>
+        </div>
+        <div class="divFooterMap">
+          <h3>Site Map</h3>
+          <ul>
+            <li><a href="http://">Shows</a></li>
+            <li><a href="http://">Filmes</a></li>
+            <li><a href="http://">Peças</a></li>
+            <li><a href="http://">Carrinho</a></li>
+          </ul>
+          <ul>
+            <li><a href="http://">Central de Ajuda</a></li>
+            <li><a href="http://">Histórico de compra</a></li>
+            <li><a href="http://">Perfil</a></li>
+          </ul>
+        </div>
+        <div class="divFooterContatos">
+          <h3>Contatos</h3>
+          <ul>
+            <li>E-mail: contato@chra.shop</li>
+            <li>Telefone: (xx) xxxx-xxxx</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <section>
+      <p class="Copyright">© 2022 Copyright Christian - Rafael - Teste de Avaliação 05</p>
+    </section>
+  </footer>
+  <script src="https://kit.fontawesome.com/43c5964a6b.js" crossorigin="anonymous"></script>
+  <script src="./js/itenscarousel.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
